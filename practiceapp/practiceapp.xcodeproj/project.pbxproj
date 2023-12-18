@@ -12,6 +12,7 @@
 		525E096A2B2BACE700F2C0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E09692B2BACE700F2C0A1 /* Assets.xcassets */; };
 		525E096D2B2BACE700F2C0A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E096C2B2BACE700F2C0A1 /* Preview Assets.xcassets */; };
 		525E09742B2BC7F300F2C0A1 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E09732B2BC7F200F2C0A1 /* WeatherButton.swift */; };
+		525E09762B3103AC00F2C0A1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E09752B3103AC00F2C0A1 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		525E09692B2BACE700F2C0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525E096C2B2BACE700F2C0A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		525E09732B2BC7F200F2C0A1 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		525E09752B3103AC00F2C0A1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				525E09652B2BACE200F2C0A1 /* practiceappApp.swift */,
 				525E09672B2BACE200F2C0A1 /* ContentView.swift */,
+				525E09752B3103AC00F2C0A1 /* ContentViewModel.swift */,
 				525E09732B2BC7F200F2C0A1 /* WeatherButton.swift */,
 				525E09692B2BACE700F2C0A1 /* Assets.xcassets */,
 				525E096B2B2BACE700F2C0A1 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525E09762B3103AC00F2C0A1 /* ContentViewModel.swift in Sources */,
 				525E09682B2BACE200F2C0A1 /* ContentView.swift in Sources */,
 				525E09662B2BACE200F2C0A1 /* practiceappApp.swift in Sources */,
 				525E09742B2BC7F300F2C0A1 /* WeatherButton.swift in Sources */,
